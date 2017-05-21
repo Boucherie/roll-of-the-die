@@ -10,3 +10,8 @@ def dice_roller2
 end
 
 dice_roller2
+
+
+hash.eachdo |value|
+hash[value] += frequency
+#total ->  each do |key, value|
